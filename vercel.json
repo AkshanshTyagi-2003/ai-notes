@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "version": 2,
   "builds": [
     { "src": "api/index.py", "use": "@vercel/python" }
@@ -6,4 +7,11 @@
   "routes": [
     { "src": "/(.*)", "dest": "api/index.py" }
   ]
+=======
+  "functions": {
+    "api/index.py": {
+      "runtime": "vercel-python@0.1.0"
+    }
+  }
+>>>>>>> 04c80b5f11c4ba761f2fc25949c6ba3b7b0e6b9f
 }
